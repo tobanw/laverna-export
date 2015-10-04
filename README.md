@@ -5,6 +5,7 @@ The notes are saved in directories corresponding to notebooks.
 #Usage
 Once you have the directory of JSON files ready to go, edit the directory locations at the top of the script and specify an output directory.
 Then run the script:
+
 ```$ python export.py```
 
 #Limitations
