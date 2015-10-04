@@ -1,5 +1,5 @@
 #Intro
-This python script exports notes from [Laverna](laverna.cc) to markdown files by extracting the content from the JSON files that Laverna uses to store notes.
+This python script exports notes from [Laverna](http://laverna.cc) to markdown files by extracting the content from the JSON files that Laverna uses to store notes.
 The notes are saved in directories corresponding to notebooks.
 
 #Usage
