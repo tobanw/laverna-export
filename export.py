@@ -38,9 +38,9 @@ def main():
                 notename = clean_filename(notedict['title'].lower(), 'md')
                 notepath = os.path.join(outpath,notename)
                 
-                #create file, add header and content
+                #create file, add title header and content
                 with open(notepath,'w') as notemd:
-                    notemd.write('##{}\n\n{}'.format(notedict['title'],notedict['content']))
+                    notemd.write('#{}\n\n{}'.format(notedict['title'],notedict['content']))
 
     print('Done!')
 
